@@ -2,12 +2,18 @@ import Product from "./Product.jsx";
 import "./ProductTab.css"
 
 function ProductTab() {
-    let options = ["hi-tech","durable", "fast"];
+    let styles = {
+         display: "flex",
+         flexWrap: "wrap",
+         justifyCOntent: "center",
+         allignItems: "center"
+    }
     return (
-     <div className="ProductTAb">
-      <Product title="mobile" price={20000} features={options}/>
-      <Product title="laptop" price={50000}/>
-      <Product title="pen" price={10}/>
+     <div style={styles}>
+      <Product title="Logitech MX Master" idx={0}/>
+      <Product title="Apple Pencil {2nd Gen}" idx={1}/>
+      <Product title="Zebronics Zeb-transformer" idx={2}/>
+      <Product title="Peptonics Toad 23"idx={3}/>
      </div>
     );
 }

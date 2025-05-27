@@ -7,7 +7,7 @@ import MsgBox from "./MsgBox.jsx";
 
 function App() {
   return (<div>
-    <MsgBox userName="Kuldeep" textColor="blue"/>;
+         <h2>Blockbuster Deals | Shop Now</h2>
     <ProductTab/>;
   </div>);
 }
