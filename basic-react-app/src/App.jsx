@@ -9,6 +9,7 @@ import Form from './Form.jsx';
 
 function App() {
   return (<div>
+    <ProductTab/>
     <Form/>
   </div>);
 }
