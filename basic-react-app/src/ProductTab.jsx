@@ -1,5 +1,4 @@
 import Product from "./Product.jsx";
-import "./ProductTab.css"
 
 function ProductTab() {
     let styles = {
