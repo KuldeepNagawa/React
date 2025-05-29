@@ -5,15 +5,14 @@ import Lottery from "./Lottery.jsx";
 import Ticket from "./Ticket.jsx";
 import TicketNum from './TicketNum.jsx';
 import { sum } from './helper.js';
+import Form from "./Form.jsx";
 
 
 function App() {
-  let winCondition = (ticket) =>{
-    return ticket[0] === 0;
-  }
+  
   return (
     <>
-      <Lottery n={3} winCondition={winCondition}/>
+      <Form />
     </>
   )
 }
