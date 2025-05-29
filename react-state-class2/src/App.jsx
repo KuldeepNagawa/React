@@ -4,15 +4,16 @@ import TodoList from "./TodoList.jsx";
 import Lottery from "./Lottery.jsx";
 import Ticket from "./Ticket.jsx";
 import TicketNum from './TicketNum.jsx';
-import { sum } from './helper.js';
 import Form from "./Form.jsx";
+import CommentsForm from './CommentsForm.jsx';
+import Comment from './Comment.jsx';
 
 
 function App() {
   
   return (
     <>
-      <Form />
+      <Comment />
     </>
   )
 }
